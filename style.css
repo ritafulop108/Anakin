@@ -1,0 +1,141 @@
+html {
+  width:1080px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height:25px;
+/*   text-align:justify; */
+/*   margin-left:0px; */
+/*   margin-top:0px; */
+/*   font-display: swap; */
+}
+
+.container {
+  position: relative;
+/*   text-align: left; */
+}
+
+img{
+ width: 100%;
+ height: auto;
+ border-top: 5px solid black;
+}
+
+#header-text {
+  width: 800px;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.main {
+  background-color: purple;
+  font-size:20px;
+  line-height:25px;
+  word-spacing:-2px;
+  letter-spacing:-1px;
+  text-align:justify;
+  width:55%;
+  margin:auto;
+  margin-top:30px;
+  font-weight: lighter;
+}
+
+
+li {
+  list-style: none;
+}
+
+li:before {
+    content: ' \25A0';
+    font-size:10px;
+    vertical-align:middle;
+    line-height:20px;
+    padding:10px;
+  }
+
+
+/* blockquote{
+  width:108%;
+  height:80px;
+  margin-left:-5%;
+  color:white;
+  background-color: #383838;
+  padding:60px 20px 0px 20px;
+  text-align:center;
+  font-size: 38px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  position:relative;
+  word-spacing:0px;
+  letter-spacing:0px;
+} */
+
+blockquote{
+  width:108%;
+  height:80px;
+  margin:50px 0px 50px -5%;
+  color:white;
+  background-color: #383838;
+  padding:60px 20px 40px 40px;
+  text-align:left;
+  font-size: 38px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  position:relative;
+  word-wrap: break-word;
+  word-spacing:0px;
+  letter-spacing:0px;
+  line-height: 45px;
+}
+
+
+blockquote::before {
+  content: '”';
+  transform: rotate(-180deg);
+  font-size:120px;
+  position:absolute;
+  left:0px;
+  top:-15px;
+  line-height: 25px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-bottom:0px;
+}
+
+h5 {
+  margin-top:0px;
+}
+
+.smaller {
+  font-size:16px;
+}
+
+.bold-italic{
+  font-size:16px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top:0px;
+  margin-bottom:20px;
+}
+
+ul.s {
+    list-style-position: inside;
+}
